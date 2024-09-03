@@ -1,0 +1,7 @@
+path	type
+/path/to/file/aflc1.mzXML	control
+/path/to/file/aflc2.mzXML	control
+/path/to/file/aflns1.mzXML	nonsulfated
+/path/to/file/aflns2.mzXML	nonsulfated
+/path/to/file/afls1.mzXML	sulfated
+/path/to/file/afls2.mzXML	sulfated
