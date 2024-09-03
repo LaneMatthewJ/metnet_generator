@@ -1,0 +1,35 @@
+Package: metnet_generator
+Title: Metabolite to Treatment Netowrk Generator
+Version: 0.2.0
+Authors@R: 
+    c(person(given = "Matthew",
+           family = "Lane",
+           role = c("aut"),
+           email = "lanemj@ornl.gov",
+           comment = c(ORCID = "0000-0002-7750-6822")))
+Description: This package is a tool suite that generates bipartite networks from metabolites to treatments in a species.
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Depends: 
+    R (>= 4.1.0),
+Imports:
+    BiocManager,
+    xcms,
+    faahKO,
+    RColorBrewer,
+    pander,
+    pheatmap,
+    MsExperiment,
+    igraph,
+    data.table
+Suggests: 
+    faahKO,
+    testthat,
+    mockeryP
+Remotes:
+    bioc::faahKO,
+    bioc::xcms
+VignetteBuilder: knitr
